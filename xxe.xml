@@ -3,7 +3,7 @@
         <!ELEMENT foo ANY >
         <!ENTITY entityID SYSTEM "file:///etc/passwd" >]>
         <entityID> &entityID; </entityID>
-<md:EntityDescriptor entityID="" validUntil="2118-03-29T09:27:35.161Z" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<md:EntityDescriptor validUntil="2118-03-29T09:27:35.161Z" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
     <ds:SignedInfo>
         <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
         <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
